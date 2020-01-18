@@ -1,0 +1,20 @@
+.workProject {
+  &:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.name {
+  font-weight: bold;
+  color: #c66;
+}
+
+.time {
+  color: #AAA;
+}
+
+.technicalStack {
+}
+
+.description {
+}

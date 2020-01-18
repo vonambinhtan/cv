@@ -1,0 +1,25 @@
+.researchExperience {
+  &:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.info {
+  margin: 1rem 0;
+}
+
+.type {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.author,
+.note {
+  margin: 0;
+}
+
+.title {
+  font-weight: bold;
+  color: #c66;
+}

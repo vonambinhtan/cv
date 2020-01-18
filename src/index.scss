@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Courier+Prime|Nunito&display=swap");
+$primaryColor: #c66;
+$primaryBackground: #f9f4ed;
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  color: #444444;
+  background: $primaryBackground;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    width: 769px;
+  }
+}
+
+.divider {
+  height: 1.25rem;
+  background-color: $primaryColor;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-divider {
+  height: 8px;
+  background-color: #dfdbd5;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 5.75rem;
+    margin: 12px 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin: 12px 0;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+    margin: 12px 0;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    margin: 12px 0;
+  }
+
+  p, span, a {
+    font-size: 1.25rem;
+    margin: 8px 0;
+  }
+}
