@@ -6,7 +6,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import avatar from "../resources/hothaohien.png";
+import avatar from "../resources/vonambinhtan.jpg";
 export default function GeneralInformation({
   name,
   email,
